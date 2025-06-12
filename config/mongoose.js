@@ -9,7 +9,7 @@ db.once('open',(err)=>{
         console.log("Something Is Wrong",err);
         return false;
     }
-    console.log("DB Connected successfully");
+    console.log("DataBase Connected successfully");
 });
 
 module.exports = db;

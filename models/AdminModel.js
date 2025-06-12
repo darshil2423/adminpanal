@@ -54,6 +54,6 @@ const ImageStorage = multer.diskStorage({
 AdminSchema.statics.uploadImageFile = multer({storage : ImageStorage}).single('image');
 AdminSchema.statics.imgpath = imagepath;
 
-const AddModel = mongoose.model('AddModel' , AdminSchema);
+const AddModel = mongoose.model('AddModels' , AdminSchema);
 
 module.exports = AddModel;
