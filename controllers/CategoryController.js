@@ -43,7 +43,7 @@ module.exports.viewCategory = async(req,res)=>{
             date = req.query.date;
         }
 
-        let perPage = 2;
+        let perPage = 4;
         let page = 0;
         if(req.query.page){
             page = req.query.page

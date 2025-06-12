@@ -49,7 +49,7 @@ module.exports.viewBlog = async (req,res)=>{
 
         // Pagination 
 
-        var perPage = 3;
+        var perPage = 4;
         var page = 0;
         if(req.query.page){
             page = req.query.page;
