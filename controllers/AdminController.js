@@ -301,7 +301,7 @@ module.exports.checkemailverify = async (req, res) => {
     }
 }
 
-module.exports.checkOtp = async (req, res) => {
+module.exports. checkOtp = async (req, res) => {
     try {
         return res.render('CheckOtp');
     }
